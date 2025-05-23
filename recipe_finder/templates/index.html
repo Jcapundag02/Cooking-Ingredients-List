@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ingredient-Based Recipe Finder</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="top-section">
+      <h1>Find Recipes by Ingredient</h1>
+      <form method="POST" action="/search" class="search-bar">
+        <i class="fas fa-search"></i>
+        <input
+          type="text"
+          name="ingredient"
+          placeholder="Enter an ingredient..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+    </div>
+
+    <div class="bottom-nav">
+      <a href="/" class="nav-item"> <i class="fas fa-home"></i><br />Home </a>
+      <a href="/mylist" class="nav-item">
+        <i class="fas fa-list"></i><br />My List
+      </a>
+      <a href="/login" class="nav-item">
+        <i class="fas fa-sign-in-alt"></i><br />Logout
+      </a>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Recipe Results</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='results.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <style>
+      .missing {
+        color: red;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="results-container">
+      <h1>Recipes with "{{ ingredient }}"</h1>
+      {% if recipes %}
+      <ul class="recipe-list">
+        {% for recipe in recipes %}
+        <li class="recipe-box">
+          <h2>{{ recipe.name }}</h2>
+          <p><strong>Ingredients:</strong></p>
+          <ul>
+            {% for ing in recipe.ingredients %} {% if ingredient.lower() not in
+            ing.lower() %}
+            <li class="missing">
+              {{ ing }} <small>(not in your search)</small>
+            </li>
+            {% else %}
+            <li>{{ ing }}</li>
+            {% endif %} {% endfor %}
+          </ul>
+          <form
+            onsubmit="addToList(event, '{{ recipe.name }}', '{{ recipe.ingredients | join(', ') }}')"
+          >
+            <button type="submit" class="add-btn">
+              <i class="fas fa-plus-circle"></i> Add to My List
+            </button>
+          </form>
+        </li>
+        {% endfor %}
+      </ul>
+      {% else %}
+      <p>No recipes found with that ingredient.</p>
+      {% endif %}
+    </div>
+
+    <div class="bottom-nav">
+      <a href="/" class="nav-item"> <i class="fas fa-home"></i><br />Home </a>
+      <a href="/mylist" class="nav-item">
+        <i class="fas fa-list"></i><br />My List
+      </a>
+    </div>
+
+    <script>
+      function addToList(event, recipeName, ingredients) {
+        event.preventDefault();
+
+        fetch("/add_to_list", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            recipe_name: recipeName,
+            ingredients: ingredients,
+          }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            alert(data.message);
+          })
+          .catch((error) => {
+            console.error("Error adding to list:", error);
+          });
+      }
+    </script>
+  </body>
+</html>

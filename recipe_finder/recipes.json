@@ -1,0 +1,278 @@
+[
+  {
+    "name": "Adobo",
+    "ingredients": [
+      "chicken",
+      "soy sauce",
+      "vinegar",
+      "garlic",
+      "bay leaf",
+      "peppercorn",
+      "oil"
+    ]
+  },
+  {
+    "name": "Sinigang na Baboy",
+    "ingredients": [
+      "pork",
+      "tamarind",
+      "tomato",
+      "onion",
+      "kangkong",
+      "sitaw",
+      "eggplant",
+      "radish"
+    ]
+  },
+  {
+    "name": "Kare-Kare",
+    "ingredients": [
+      "oxtail",
+      "peanut butter",
+      "bagoong",
+      "eggplant",
+      "banana heart",
+      "string beans"
+    ]
+  },
+  {
+    "name": "Tinolang Manok",
+    "ingredients": [
+      "chicken",
+      "ginger",
+      "garlic",
+      "onion",
+      "green papaya",
+      "malunggay",
+      "fish sauce"
+    ]
+  },
+  {
+    "name": "Lechon Kawali",
+    "ingredients": ["pork belly", "salt", "pepper", "oil", "garlic"]
+  },
+  {
+    "name": "Paksiw na Isda",
+    "ingredients": [
+      "fish",
+      "vinegar",
+      "ginger",
+      "garlic",
+      "eggplant",
+      "pepper",
+      "water"
+    ]
+  },
+  {
+    "name": "Bistek Tagalog",
+    "ingredients": ["beef", "soy sauce", "calamansi", "onion", "garlic", "oil"]
+  },
+  {
+    "name": "Pancit Canton",
+    "ingredients": [
+      "noodles",
+      "pork",
+      "shrimp",
+      "carrot",
+      "cabbage",
+      "soy sauce",
+      "onion",
+      "garlic"
+    ]
+  },
+  {
+    "name": "Pancit Bihon",
+    "ingredients": [
+      "bihon noodles",
+      "chicken",
+      "cabbage",
+      "carrot",
+      "soy sauce",
+      "onion",
+      "garlic"
+    ]
+  },
+  {
+    "name": "Laing",
+    "ingredients": [
+      "dried taro leaves",
+      "coconut milk",
+      "chili",
+      "shrimp paste",
+      "garlic",
+      "onion"
+    ]
+  },
+  {
+    "name": "Menudo",
+    "ingredients": [
+      "pork",
+      "liver",
+      "potato",
+      "carrot",
+      "tomato sauce",
+      "garlic",
+      "onion"
+    ]
+  },
+  {
+    "name": "Afritada",
+    "ingredients": [
+      "chicken",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "tomato sauce",
+      "garlic",
+      "onion"
+    ]
+  },
+  {
+    "name": "Kaldereta",
+    "ingredients": [
+      "beef",
+      "potato",
+      "carrot",
+      "bell pepper",
+      "tomato sauce",
+      "liver spread",
+      "garlic"
+    ]
+  },
+  {
+    "name": "Ginisang Ampalaya",
+    "ingredients": ["ampalaya", "egg", "tomato", "onion", "garlic", "salt"]
+  },
+  {
+    "name": "Tortang Talong",
+    "ingredients": ["eggplant", "egg", "salt", "oil", "garlic"]
+  },
+  {
+    "name": "Tokwa't Baboy",
+    "ingredients": ["tofu", "pork", "soy sauce", "vinegar", "onion", "garlic"]
+  },
+  {
+    "name": "Lumpiang Shanghai",
+    "ingredients": [
+      "ground pork",
+      "carrot",
+      "onion",
+      "garlic",
+      "egg",
+      "wrapper",
+      "salt"
+    ]
+  },
+  {
+    "name": "Ginataang Gulay",
+    "ingredients": [
+      "sitaw",
+      "kalabasa",
+      "coconut milk",
+      "shrimp paste",
+      "onion",
+      "garlic"
+    ]
+  },
+  {
+    "name": "Pinakbet",
+    "ingredients": [
+      "bagoong",
+      "eggplant",
+      "sitaw",
+      "okra",
+      "kalabasa",
+      "ampalaya",
+      "tomato"
+    ]
+  },
+  {
+    "name": "Bulalo",
+    "ingredients": [
+      "beef shank",
+      "corn",
+      "pechay",
+      "onion",
+      "garlic",
+      "pepper",
+      "salt"
+    ]
+  },
+  {
+    "name": "Nilagang Baka",
+    "ingredients": ["beef", "potato", "cabbage", "onion", "peppercorn", "salt"]
+  },
+  {
+    "name": "Tapa",
+    "ingredients": ["beef", "soy sauce", "vinegar", "garlic", "sugar", "salt"]
+  },
+  {
+    "name": "Longganisa",
+    "ingredients": [
+      "ground pork",
+      "garlic",
+      "sugar",
+      "vinegar",
+      "salt",
+      "pepper"
+    ]
+  },
+  {
+    "name": "Arroz Caldo",
+    "ingredients": [
+      "chicken",
+      "rice",
+      "ginger",
+      "garlic",
+      "onion",
+      "eggs",
+      "calamansi"
+    ]
+  },
+  {
+    "name": "Champorado",
+    "ingredients": ["glutinous rice", "cocoa powder", "sugar", "milk", "salt"]
+  },
+  {
+    "name": "Bicol Express",
+    "ingredients": [
+      "pork",
+      "coconut milk",
+      "shrimp paste",
+      "chili",
+      "garlic",
+      "onion"
+    ]
+  },
+  {
+    "name": "Puto",
+    "ingredients": ["rice flour", "sugar", "baking powder", "egg", "milk"]
+  },
+  {
+    "name": "Bibingka",
+    "ingredients": [
+      "rice flour",
+      "coconut milk",
+      "egg",
+      "sugar",
+      "butter",
+      "salted egg"
+    ]
+  },
+  {
+    "name": "Palabok",
+    "ingredients": [
+      "rice noodles",
+      "shrimp",
+      "tinapa",
+      "egg",
+      "garlic",
+      "chicharon",
+      "annatto"
+    ]
+  },
+  {
+    "name": "Halayang Ube",
+    "ingredients": ["ube", "condensed milk", "evaporated milk", "butter"]
+  }
+]
